@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+
+/* ==== Fundo ==== */
+
+body {
+    background: url("/mnt/data/02417c99-c89a-496b-975b-4ac52ac8b7ff.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==== Caixa do formulário ==== */
+
+.login-container {
+    background: #85A6BF; 
+    width: 480px;
+    padding: 40px 50px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.25);
+}
+
+.login-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* ==== Form ==== */
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: #1f1f1f;
+    margin-bottom: 5px;
+}
+
+input {
+    background: #e9e4df;
+    border: none;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* ==== Esqueci a senha ==== */
+
+.forgot {
+    font-size: 13px;
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    display: block;
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ==== Botão ==== */
+
+button {
+    background: #e9e4df;
+    border: none;
+    padding: 14px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #ffffff;
+}

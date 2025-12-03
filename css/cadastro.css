@@ -1,0 +1,74 @@
+/* Fundo da página */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/736x/65/bd/0a/65bd0a6bef1006cc96e03085f6d419fd.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Centraliza o card */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+/* Card de cadastro */
+.card {
+    background: #9BBBD1;
+    padding: 40px;
+    width: 350px;
+    border-radius: 40px;
+    text-align: left;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+/* Título */
+.card h1 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Labels */
+.card label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+.card input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    background: #ECE9E6;
+}
+
+/* Botão */
+.card button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #EAE4DB;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card button:hover {
+    background: #d6ccc2;
+}
